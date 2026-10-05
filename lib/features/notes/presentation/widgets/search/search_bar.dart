@@ -60,8 +60,7 @@ class SearchAppBar extends StatelessWidget implements PreferredSizeWidget {
   /// Whether the search field should autofocus when entering active mode.
   final bool autofocus;
 
-  static final Size _preferredSize =
-      const MechanixAppBar.small().preferredSize;
+  static final Size _preferredSize = const MechanixAppBar.small().preferredSize;
 
   @override
   Size get preferredSize => _preferredSize;
